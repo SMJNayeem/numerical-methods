@@ -11,7 +11,7 @@ i = a+h
 
 
 while(i <= (b-h)):
-    if(i/h == 1 or 3 or 5 or 7 or 9 or 11):
+    if((i/h) % 2 != 0):
         ans += (4*f(i))
     else:
         ans += (2*f(i))

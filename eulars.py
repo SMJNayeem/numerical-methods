@@ -15,4 +15,4 @@ for i in range(0, n, 1):
     y0 = yn
     x0 = x0+h
 
-print("value of y is "+str(yn)+"at x= "+str(xn))
+print("value of y is "+str(yn)+" at x= "+str(xn))

@@ -15,12 +15,12 @@ i = 1
 if(a < b and f(a)*f(b) < 0):
     while(1):
         x = g(c)
-        print(i)
+        print(i, x)
         if(abs(x-c) <= acc):
-            print(x)
+            print("Root: ", x)
             break
         elif(i == 100):
-            print(x)
+            print("Root: ", x)
             break
         else:
             c = x

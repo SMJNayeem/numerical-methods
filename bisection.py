@@ -10,7 +10,7 @@ i = 1
 if(a < b and fx(a)*fx(b) < 0):
     while(1):
         c = (a+b)/2
-        print(i)
+        print(i, c)
         if(abs(fx(c)) <= acc):
             print('Root: ', c)
             break

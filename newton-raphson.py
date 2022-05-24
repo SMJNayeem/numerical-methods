@@ -6,13 +6,11 @@ def fxx(x):
     return 4*x*x*x-1
 
 
-a = -0.75
-b = 1.25
+a = int(input("lower value: "))
+b = int(input("higher value: "))
 c = (a+b)/2
 acc = 0.0001
 i = 1
-
-print(fx(a)*fx(b))
 
 if(a < b and (fx(a)*fx(b)) < 0):
     while(1):

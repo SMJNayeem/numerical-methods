@@ -27,13 +27,13 @@ while(count > 0):
     rdet = math.sqrt(det)
     ans = x2-(2*c/(b+(signbit*(rdet))))
     pError = abs((ans-x2)/ans)*100
+    print(count, ans)
     if((pError == 0) or (pError < abs(error))):
-        print("Root = ", ans, " ", "Count = ", count)
+        print("Root: ", ans)
         break
     else:
-        print(count, ans)
         x0 = x1
         x1 = x2
         x2 = ans
 
-    count = count
+    count += 1
