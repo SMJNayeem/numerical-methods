@@ -6,8 +6,8 @@ def g(x):
     return (1+x)**(1/3)
 
 
-a = 1
-b = 2
+a = int(input("lower value: "))
+b = int(input("higher value: "))
 c = (a+b)/2
 acc = 0.0001
 i = 1
